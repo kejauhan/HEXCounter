@@ -1,0 +1,51 @@
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    padding: 0;
+    background: #000000;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    font-family: Source Sans Pro;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 200px;
+}
+
+button#changeButton{
+    border: 0px;
+    display: block;
+    background: #fff ;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Source Sans Pro;
+    width: 180px;
+    height: 60px;
+    color: #000000;
+    margin: 0 auto;
+}
+button#change1{
+    display: block;
+    background: #fff ;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0px;
+    height: 60px;
+    width: 180px;
+    color: #000000;
+    font-family: Source Sans Pro;
+    margin: 0 auto;
+}
+body, button#change{
+    transition: all 0.4s ease-in-out;
+}
+
